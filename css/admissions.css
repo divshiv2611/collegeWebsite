@@ -12,10 +12,9 @@
 }
 #department::before{
     content:"";
-    position: absolute;
+    position: central;
     background: url('../bg.jpg');
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;/*further image reference*/
+    background-repeat: no-repeat !important;/*further image reference*/
     background-size: cover;
     height: 100%;
     width:100%;
@@ -44,13 +43,13 @@
 }
 #department p{
     color: black;
-    text-align: center;
+    text-align: absolute;
 }
 #department h3{
     color: black;
-    text-align: center;
+    text-align: absolute;
 }
 #department li{
     color: black;
-    text-align: center;
+    text-align: absolute;
 }
