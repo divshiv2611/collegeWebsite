@@ -13,7 +13,7 @@
 #department::before{
     content:"";
     position: absolute;
-    background: url('../bg4.jpg');
+    background: url('../bg.jpg');
     background-repeat: no-repeat;/*further image reference*/
     background-size: cover;
     height: 90%;
