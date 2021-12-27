@@ -1,0 +1,51 @@
+*{
+    margin :0;
+    padding: 0;
+}
+#epartment{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;/*for beautifying */
+    height: 639px;
+    justify-content: center;
+    align-items: center;
+}
+#department::before{
+    content:"";
+    position: absolute;
+    background: url('../bg4.jpg');
+    background-repeat: no-repeat;/*further image reference*/
+    background-size: cover;
+    height: 90%;
+    width:100%;
+    background-image: left;
+    z-index: -1;/*things would be backside of content*/
+    opacity:0.63;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+
+}
+
+.h-primary::before{
+    content:"";
+    background-color: gainsboro;/*bring change*/
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#department p{
+    color: black;
+    text-align: center;
+}
+#department h3{
+    color: black;
+    text-align: center;
+}
