@@ -5,7 +5,7 @@
 #epartment{
     display: flex;
     flex-direction: column;
-    padding: 50px 250px;/*for beautifying */
+    padding: 50px 250px;
     height: 639px;
     justify-content: center;
     align-items: center;
@@ -15,12 +15,13 @@
     position: absolute;
     background: url('../bg.jpg');
     background-repeat: no-repeat;
-    background-repeat: no-repeat;/*further image reference*/
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100%;
     width:100%;
     background-image: left;
-    z-index: -1;/*things would be backside of content*/
+    z-index: -1;
     opacity:0.63;
 }
 
@@ -33,7 +34,7 @@
 
 .h-primary::before{
     content:"";
-    background-color: gainsboro;/*bring change*/
+    background-color: gainsboro;
     position: absolute;
     top: 0px;
     left: 0px;    

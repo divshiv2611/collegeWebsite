@@ -1,15 +1,15 @@
-/* CSS RESET */
+
 *
 {
     margin: 0;
     padding: 0;
 }
 
-/* CSS Variables */
+
 :root{
     --navbar-heaight:59px;
 }
-/* Nevegation bar */
+
 #navbar{
     display: flex;
     align-items: center;
@@ -20,23 +20,22 @@
     position: sticky;
 }
 
-/* logo nad image */
+
 #logo{
-    margin: 8px 15px/*for blue margin*/
+    margin: 8px 15px;
 }
 #logo img{
   height :80px;
   margin : 10px 10px;
 
 }
-/* list styling */
 
 #navbar ul{
     display: flex;
 }
 #navbar::before{
     content:"";
-    background-color: rgb(245, 14, 14);/*bring change*/
+    background-color: rgb(245, 14, 14);
     position: absolute;
     top: 0px;
     left: 0px;    
@@ -54,7 +53,7 @@
     display: block;
     padding: 3px 15px;
     border-radius: 10px;
-    text-decoration: none; /*for removing underline*/
+    text-decoration: none; 
     color: white;
 }
 
@@ -63,11 +62,11 @@
     background-color: white;
 }
 
-/* About UTR */
+
 #aboutus{
     display: flex;
     flex-direction: column;
-    padding: 50px 250px;/*for beautifying */
+    padding: 50px 250px;
     height: 639px;
     justify-content: center;
     align-items: center;
@@ -77,11 +76,11 @@
     content:"";
     position: absolute;
     background: url('../bg.jpg');
-    background-repeat: no-repeat;/*further image reference*/
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width:100%;
-    z-index: -1;/*things would be backside of content*/
+    z-index: -1;
     opacity:0.80;
 }
 
@@ -97,7 +96,6 @@
     font-size: 1.9rem;
     
 }
-/* course */
 #course{
     margin: 34px;
     display:flex;
@@ -110,11 +108,12 @@
     border-radius: 13px;
     background-color: rgb(240, 235, 229);
 }
+/* divyansh project */
 #course .box img{
     height: 261px;
     width: 400px;
 }
-/* Utility classes */
+
 .h-primary{
     font-size: 2.8rem;
     padding: 12px;
