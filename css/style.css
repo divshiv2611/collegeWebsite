@@ -129,4 +129,37 @@
     text-align: center;
 }
 
+#info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;
+    height: 639px;
+    justify-content: center;
+    align-items: center;
+}
 
+#info::before{
+    content:"";
+    position: absolute;
+    background: url('../contacts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 1000px 800px;
+    height: 100%;
+    width:80%;
+    z-index: -1;
+    opacity:0.80;
+}
+
+.h-tertiary{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+
+}
+
+#info ul li{
+    list-style: none;
+    font-size: 1.4rem;
+}
