@@ -2,7 +2,7 @@
     margin :0;
     padding: 0;
 }
-#epartment{
+#ostel{
     display: flex;
     flex-direction: column;
     padding: 50px 250px;/*for beautifying */
@@ -10,12 +10,11 @@
     justify-content: center;
     align-items: center;
 }
-#department::before{
+#Hostel::before{
     content:"";
-    position: absolute;
-    background: url('../bg.jpg');
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;/*further image reference*/
+    position: central;
+    background: url('../hostel.jpg');
+    background-repeat: no-repeat !important;/*further image reference*/
     background-size: cover;
     height: 100%;
     width:100%;
@@ -42,15 +41,16 @@
     z-index: -1;
     opacity: 0.8;
 }
-.p-primary p{
+
+.hostels{
     color: black;
+    font-size: 30px;
+    padding: 12px;
     text-align: center;
 }
-#department h3{
+.hostela{
     color: black;
-    text-align: center;
-}
-#department li{
-    color: black;
+    font-size: 30px;
+    padding: 12px;
     text-align: center;
 }

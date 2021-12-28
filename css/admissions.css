@@ -41,15 +41,12 @@
     z-index: -1;
     opacity: 0.8;
 }
-#department p{
+
+#departments li{
     color: black;
-    text-align: absolute;
+    text-align: center;
 }
-#department h3{
+#departmenta li{
     color: black;
-    text-align: absolute;
-}
-#department li{
-    color: black;
-    text-align: absolute;
+    text-align: center;
 }
