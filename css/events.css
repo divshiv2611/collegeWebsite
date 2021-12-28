@@ -1,0 +1,50 @@
+*{
+    margin :0;
+    padding: 0;
+}
+#vents{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;/*for beautifying */
+    height: 639px;
+    justify-content: center;
+    align-items: center;
+}
+#events::before{
+    content:"";
+    position: central;
+    background: url('../is4.jpg');
+    background-repeat: no-repeat !important;/*further image reference*/
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    background-image: left;
+    z-index: -1;/*things would be backside of content*/
+    opacity:0.63;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+
+}
+
+.h-primary::before{
+    content:"";
+    background-color: gainsboro;/*bring change*/
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.events{
+     color: black;
+    font-size:50px;
+    padding: 12px;
+    text-align: center;
+}
