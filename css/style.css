@@ -66,8 +66,8 @@
 #aboutus{
     display: flex;
     flex-direction: column;
-    padding: 50px 250px;
-    height: 639px;
+    padding: 60px 250px;
+    height: 570px;
     justify-content: center;
     align-items: center;
 }
@@ -97,7 +97,7 @@
     
 }
 #course{
-    margin: 34px;
+    margin: 44px;
     display:flex;
 
 }
@@ -116,8 +116,9 @@
 
 .h-primary{
     font-size: 2.8rem;
-    padding: 12px;
-    text-align: center;
+    margin: 3px;
+    padding: 22px;
+    text-align: center !important;
 
 }
 
@@ -129,27 +130,24 @@
     text-align: center;
 }
 
-#info{
-    display: flex;
-    flex-direction: column;
-    padding: 50px 250px;
-    height: 639px;
-    justify-content: center;
-    align-items: center;
-}
 
-#info::before{
-    content:"";
-    position: absolute;
-    background: url('../contacts.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-size: 1000px 800px;
-    height: 100%;
-    width:80%;
-    z-index: -1;
-    opacity:0.80;
+#contact{
+    margin: 34px;
+    display:flex;
+
+
+}
+#contact .boxs{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px;
+    border-radius: 13px;
+    background-color: rgb(171, 205, 235);
+}
+/* divyansh project */
+#contact .boxs img{
+    height: 261px;
+    width: 400px;
 }
 
 .h-tertiary{
@@ -159,7 +157,10 @@
 
 }
 
-#info ul li{
-    list-style: none;
-    font-size: 1.4rem;
+.h-secondary{
+    font-size: 2.13rem;
+    text-align: center;
+}
+.p-secondary{
+  text-align: center;
 }
