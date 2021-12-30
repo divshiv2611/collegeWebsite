@@ -70,20 +70,28 @@
     height: 570px;
     justify-content: center;
     align-items: center;
+    line-height: 1.4;
 }
 
 #aboutus::before{
     content:"";
     position: absolute;
-    background: url('../bg.jpg');
+    background: url('../bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width:100%;
     z-index: -1;
     opacity:0.80;
+    animation:slider 8s infinite linear;
 }
 
+@keyframes slider{
+     0%{     background: url('../bg3.jpg'); background-repeat: no-repeat; background-size: cover ; }
+     25%{    background: url('../bg1.jpg'); background-repeat: no-repeat; background-size: cover ; }
+     50%{    background: url('../bg2.jpg'); background-repeat: no-repeat; background-size: cover;}
+     75%{    background: url('../bg.jpg'); background-repeat: no-repeat; background-size: cover;}
+}
 #aboutus h1{
     color: white;
     text-align: center;
@@ -117,7 +125,9 @@
 .h-primary{
     font-size: 2.8rem;
     margin: 3px;
+
     padding: 22px;
+
     text-align: center !important;
 
 }
