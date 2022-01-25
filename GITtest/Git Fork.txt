@@ -1,0 +1,10 @@
+fork directly on git window
+
+open git bash in your desire folder
+  git clone <link>
+  
+  make changes
+
+  git push or git push -u origin master
+
+  
